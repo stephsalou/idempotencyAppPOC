@@ -1,0 +1,10 @@
+{
+  "idempotencyAppPocApp": {
+    "TagEnum": {
+      "null": "",
+      "NEW": "NEW",
+      "UPDATED": "UPDATED",
+      "EXPIRED": "EXPIRED"
+    }
+  }
+}

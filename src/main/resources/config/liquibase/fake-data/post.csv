@@ -1,0 +1,11 @@
+id;name;body;created_at;updated_at;active;tags
+1;oups;../fake-data/blob/hipster.txt;2024-11-20T10:28:03;2024-11-19T21:13:22;true;UPDATED
+2;jusqu’à ce que;../fake-data/blob/hipster.txt;2024-11-20T00:45:07;2024-11-20T07:22:54;true;UPDATED
+3;ding habile porte-parole;../fake-data/blob/hipster.txt;2024-11-20T03:38:42;2024-11-19T18:54:44;true;UPDATED
+4;dedans;../fake-data/blob/hipster.txt;2024-11-19T17:22:08;2024-11-20T13:59:18;false;UPDATED
+5;diplomate via mince;../fake-data/blob/hipster.txt;2024-11-20T00:26:28;2024-11-20T13:32:24;true;NEW
+6;tchou tchouu;../fake-data/blob/hipster.txt;2024-11-20T12:21:08;2024-11-19T20:23:53;true;EXPIRED
+7;où;../fake-data/blob/hipster.txt;2024-11-19T23:16:09;2024-11-20T08:34:13;true;NEW
+8;au-dehors;../fake-data/blob/hipster.txt;2024-11-19T19:16:33;2024-11-19T17:44:30;false;EXPIRED
+9;ouf;../fake-data/blob/hipster.txt;2024-11-19T20:45:29;2024-11-19T21:30:07;false;NEW
+10;mairie turquoise vaincre;../fake-data/blob/hipster.txt;2024-11-19T18:53:05;2024-11-20T06:43:43;false;EXPIRED
