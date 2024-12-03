@@ -22,7 +22,7 @@ public class RedissonConfig {
     public RedissonClient redissonClient() {
         Config config = new Config();
         config.useSingleServer().setAddress(redisHost);
-        config.useSingleServer().setPassword(redisPassword);
+//        config.useSingleServer().setPassword();
         return Redisson.create(config);
     }
 

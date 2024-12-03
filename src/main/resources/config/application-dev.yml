@@ -118,3 +118,8 @@ jhipster:
 # ===================================================================
 
 # application:
+
+
+REDIS:
+  HOST: redis://localhost:6379
+  PASSWORD:

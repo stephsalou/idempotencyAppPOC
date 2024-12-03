@@ -1,5 +1,6 @@
 package com.df.myapp.service.impl;
 
+import com.df.myapp.aop.idempotency.Idempotent;
 import com.df.myapp.domain.Post;
 import com.df.myapp.repository.PostRepository;
 import com.df.myapp.service.PostService;
@@ -31,9 +32,10 @@ public class PostServiceImpl implements PostService {
         this.postMapper = postMapper;
     }
 
+    @Idempotent(parameterNames = {"postDTO", "test2"}, expirationSeconds = 60)
     @Override
-    public PostDTO save(PostDTO postDTO) {
-        LOG.debug("Request to save Post : {}", postDTO);
+    public PostDTO save(PostDTO postDTO, String test,Long test2) {
+        LOG.debug("Request to save Post : {} - {test}", postDTO);
         Post post = postMapper.toEntity(postDTO);
         post = postRepository.save(post);
         return postMapper.toDto(post);

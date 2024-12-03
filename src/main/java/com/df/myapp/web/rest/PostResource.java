@@ -58,7 +58,7 @@ public class PostResource {
         if (postDTO.getId() != null) {
             throw new BadRequestAlertException("A new post cannot already have an ID", ENTITY_NAME, "idexists");
         }
-        postDTO = postService.save(postDTO);
+        postDTO = postService.save(postDTO,"test", 1L);
         return ResponseEntity.created(new URI("/api/posts/" + postDTO.getId()))
             .headers(HeaderUtil.createEntityCreationAlert(applicationName, true, ENTITY_NAME, postDTO.getId().toString()))
             .body(postDTO);

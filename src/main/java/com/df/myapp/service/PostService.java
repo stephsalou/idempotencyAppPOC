@@ -15,7 +15,7 @@ public interface PostService {
      * @param postDTO the entity to save.
      * @return the persisted entity.
      */
-    PostDTO save(PostDTO postDTO);
+    PostDTO save(PostDTO postDTO, String test, Long test2);
 
     /**
      * Updates a post.
